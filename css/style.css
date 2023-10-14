@@ -1,0 +1,67 @@
+.sobre-mi {
+  background: #B9E6FF;
+}
+.sobre-mi h1 {
+  background: #5C95FF;
+}
+.sobre-mi h1:hover {
+  background: #FFA9A3;
+  transition: background-color 0.5s;
+}
+.sobre-mi p {
+  background: #FFA9A3;
+}
+.sobre-mi p:hover {
+  background: #5C95FF;
+  transition: background-color 0.5s;
+}
+.sobre-mi .fotoyo {
+  width: 100%;
+}
+
+.col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+.body-equip {
+  background: rgb(143, 143, 143);
+  background: radial-gradient(circle, rgb(143, 143, 143) 6%, rgb(250, 245, 251) 50%, rgb(87, 86, 86) 100%);
+}
+
+#equipamientos img {
+  width: 100%;
+}
+#equipamientos img:hover {
+  border: 5px solid grey;
+}
+
+#Soleggiata img {
+  width: 100%;
+}
+#Soleggiata img:hover {
+  border: 5px solid grey;
+}
+
+#Notturna img {
+  width: 100%;
+}
+#Notturna img:hover {
+  border: 5px solid grey;
+}
+
+.fondo-soleggiata {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(255, 66, 66) 41%, rgb(252, 176, 69) 100%);
+}
+
+.fondo-notturna {
+  background: rgb(33, 40, 242);
+  background: linear-gradient(90deg, rgb(33, 40, 242) 13%, rgb(114, 0, 195) 50%, rgb(45, 223, 209) 83%);
+}
+
+.carrousel {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

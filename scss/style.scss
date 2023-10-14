@@ -1,0 +1,76 @@
+$coloruno: #B9E6FF;
+$colordos: #5C95FF;
+$colortres: #FFA9A3;
+$colorcuatro: #F2A359;
+$colorcinco: #DB9065;
+
+
+.sobre-mi {
+    background: #B9E6FF;
+    h1 {
+        background: #5C95FF;
+        &:hover {
+            background: $colortres;
+            transition: background-color 0.5s;
+        }
+
+    }
+    
+    p {
+        background: #FFA9A3;
+        &:hover {
+            background: $colordos;
+            transition: background-color 0.5s;
+        }
+    }
+    .fotoyo {
+        width: 100%;
+    }
+
+}
+
+.col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
+
+.body-equip {
+    background: rgb(143,143,143);
+background: radial-gradient(circle, rgba(143,143,143,1) 6%, rgba(250,245,251,1) 50%, rgba(87,86,86,1) 100%);
+}
+
+#equipamientos img {
+        width: 100%;
+        &:hover {
+            border: 5px solid grey;
+        }
+    }
+
+#Soleggiata img {
+    width: 100%;
+    &:hover {
+        border: 5px solid grey;
+    }
+}
+
+#Notturna img {
+    width: 100%;
+    &:hover {
+        border: 5px solid grey;
+    }
+}
+
+.fondo-soleggiata {
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,66,66,1) 41%, rgba(252,176,69,1) 100%);
+}
+
+.fondo-notturna {
+    background: rgb(33,40,242);
+background: linear-gradient(90deg, rgba(33,40,242,1) 13%, rgba(114,0,195,1) 50%, rgba(45,223,209,1) 83%);
+}
+
+.carrousel {
+    width: 100%;
+}
+
